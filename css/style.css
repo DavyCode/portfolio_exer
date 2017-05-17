@@ -1,0 +1,33 @@
+.cl_white {
+    color: white;
+    width: 100vw;
+    height: 100vh;
+    background: url(../images/3.jpg);
+    /*background-size: 100% 100%;*/
+    padding: 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /*font-family: 'Baloo', cursive;*/
+    text-align: center;
+    padding-top: 20%;
+    padding-bottom: 25%;
+    text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.9), 0px 8px 13px rgba(0, 0, 0, 0.9), 0px 18px 23px rgba(0, 0, 0, 0.9);
+    margin: auto;
+}
+
+img {
+    width: 360px;
+    /*padding: 20px;*/
+    /*margin: 0.1pc;*/
+    transition: opacity .5s ease-in-out;
+}
+
+img:hover {
+    opacity: .5;
+}
+
+.he {
+    text-align: center;
+    text-shadow: 2px solid saddlebrown;
+}
